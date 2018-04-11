@@ -1,4 +1,4 @@
-#Ciąg Fibonacciego
+#Ciąg Fibonacciego to ciąg rozpoczynający się od 0 i 1 a każda kolejna liczba to suma dwóch poprzzednich, np:
 
 fibonacciIterations=20
 a1=0
