@@ -18,3 +18,14 @@ print(listOfWords)
 for word in listOfWords:
     if word.lower().find('p')>=0:
         print(word)
+        
+print('--------------------------------------------')
+
+# liczy ile razy w w/w tekście występowały poszczególne słowa
+wordDictionary={}
+for word in listOfWords:
+    if word in wordDictionary.keys():
+        wordDictionary[word]=wordDictionary[word]+1
+    else:
+        wordDictionary.setdefault(word,1)
+print(wordDictionary)
